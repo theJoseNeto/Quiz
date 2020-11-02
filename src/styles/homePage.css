@@ -1,0 +1,50 @@
+:root{
+    
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #5d1ef0;
+    --color-primary-light: #763bff;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842C2;
+    --color-secundary: #1cd670;
+    --color-secundary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-title-dark: #3e2b6b;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+      
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn-default{
+    font-family: Poppins, sans-serif;
+    color: white;
+    background: var(--color-secundary);
+    padding: 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing:0.1rem;
+    transition: linear .1s;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    border-radius:2rem;
+    
+}
+
+.btn-default:hover{
+    background: var(--color-secundary-dark);
+    transform: scale(1.1);
+}

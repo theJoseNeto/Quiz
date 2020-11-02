@@ -11,6 +11,7 @@ O intuito desse aplicativo é criar quizes e compartilhar para que outras pessoa
 ### O que será adicionado: 
 
 [] funcionalidade para criar novas questões;
+
 [] Um back-end;
 
 ### Falta algo mais?
